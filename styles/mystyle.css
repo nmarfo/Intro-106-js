@@ -1,0 +1,31 @@
+html,body{
+    color: rgb(58, 212, 58);
+    text-align: center;
+    background-color: #333;
+
+
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    background-color: (146, 113, 207);
+    color: white;
+    padding: 7px 0;
+}
+
+.main-container{
+    display:flex;
+    height: calc(100% - 5px);
+
+}
+
+.sec-list{
+    flex: 3;
+}
+ 
+.sec-form{
+    flex: 2;
+    border: 1 px solid #dedede;
+    border-radius: 6px;
+    background-color: darkkhaki;
+}
